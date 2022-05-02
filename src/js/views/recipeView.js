@@ -1,6 +1,6 @@
 import View  from "./View"
 import icons from "../../img/icons.svg"
-import { Fraction } from "fractional"
+import {Fraction} from "fractional"
 
 class RecipeView extends View{
   _errorMessage = "We could not find that recipe. Please try another one."
