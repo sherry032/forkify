@@ -1,6 +1,5 @@
 import View  from "./View"
-import icons from "../../img/icons.svg"
-
+import icons from "../../src/img/icons.svg"
 
 class RecipeView extends View{
   _errorMessage = "We could not find that recipe. Please try another one."

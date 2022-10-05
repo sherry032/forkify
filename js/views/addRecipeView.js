@@ -1,6 +1,5 @@
 import View  from "./View"
-import icons from "../../img/icons.svg"
-
+import icons from "../../src/img/icons.svg"
 class AddRecipeView extends View{
     _parentEl = document.querySelector(".upload")
     _btnOpen = document.querySelector(".nav__btn--add-recipe")

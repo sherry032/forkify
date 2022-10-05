@@ -1,16 +1,16 @@
 // const { reverse } = require("core-js/core/array");
 import * as model from './model.js';
 import { MODEL_CLOSE_SEC } from './config.js';
-import RecipeView from './views/recipeView.js';
+import RecipeView from '../../js/views/recipeView.js';
 import 'core-js';
 import 'regenerator-runtime';
 import { async } from 'regenerator-runtime';
-import searchView from './views/searchView.js';
-import resultView from './views/resultView.js';
-import paginationView from './views/paginationView.js';
-import bookmarksView from "./views/bookmarksView"
-import addRecipeView from './views/addRecipeView.js';
-import recipeView from './views/recipeView.js';
+import searchView from '../../js/views/searchView';
+import resultView from '../../js/views/resultView.js';
+import paginationView from '../../js/views/paginationView.js';
+import bookmarksView from "../../js/views/bookmarksView"
+import addRecipeView from '../../js/views/addRecipeView.js';
+import recipeView from '../../js/views/recipeView.js';
 
 // https://forkify-api.herokuapp.com/v2
 

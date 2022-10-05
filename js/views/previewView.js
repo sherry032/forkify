@@ -1,6 +1,5 @@
 import View  from "./View"
-import icons from "../../img/icons.svg"
-
+import icons from "../../src/img/icons.svg"
 export default class PreviewView extends View{
     _generateMarkUp(){
         const currentId = window.location.hash.slice(1)
